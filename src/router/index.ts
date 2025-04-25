@@ -3,7 +3,6 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Products from '@/views/Products.vue'
 import ProductDetail from '@/views/ProductDetail.vue'
-import News from '@/views/News.vue'
 import Contact from '@/views/Contact.vue'
 
 const router = createRouter({
@@ -28,11 +27,6 @@ const router = createRouter({
       path: '/products/:id',
       name: 'ProductDetail',
       component: ProductDetail
-    },
-    {
-      path: '/news',
-      name: 'News',
-      component: News
     },
     {
       path: '/contact',

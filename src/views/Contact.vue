@@ -52,7 +52,9 @@
       <div class="bg-white rounded-lg shadow-lg p-12 text-center">
         <h2 class="text-4xl font-bold mb-12">扫码添加微信</h2>
         <div class="flex flex-col items-center">
-          <img src="@/assets/images/qrcode.jpg" alt="微信二维码" class="w-64 h-64 mb-6" />
+          <div class="w-64 h-64 mb-6 border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center">
+            <p class="text-gray-500">微信二维码待添加</p>
+          </div>
           <p class="text-xl text-gray-600">扫描二维码，添加客服微信</p>
         </div>
       </div>
